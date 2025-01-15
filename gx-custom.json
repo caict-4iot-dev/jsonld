@@ -1,15 +1,14 @@
 {
   "@context": {
     "gx": "https://github.com/caict-4iot-dev/jsonld/blob/main/gx-custom.json#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "vaa": {
       "@id": "gx:vaa",
-      "@type": "xsd:string",
-      "description": "The unique identifier for a specific VAA entity."
+      "@type": "xsd:string"
     },
     "uscc": {
       "@id": "gx:uscc",
-      "@type": "xsd:string",
-      "description": "The unique identifier for a specific USCC entity."
+      "@type": "xsd:string"
     }
   }
 }
