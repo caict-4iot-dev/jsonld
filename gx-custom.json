@@ -1,0 +1,8 @@
+{
+  "@context": "http://www.w3.org/ns/json-ld#",
+  "id": "http://github.com/schema/customField",
+  "type": "Property",
+  "label": "Custom Field",
+  "description": "A field used for custom data in the context of this schema.",
+  "range": "xsd:string"
+}
