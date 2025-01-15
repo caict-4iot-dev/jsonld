@@ -1,6 +1,6 @@
 {
   "@context": {
-    "gx": "https://github.com/caict-4iot-dev/jsonld/blob/main/gx-custom.json#",
+    "gx": "https://raw.githubusercontent.com/caict-4iot-dev/jsonld/main/gx-custom.json#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "vaa": {
       "@id": "gx:vaa",
