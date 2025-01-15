@@ -1,8 +1,15 @@
 {
-  "@context": "http://www.w3.org/ns/json-ld#",
-  "id": "http://github.com/schema/customField",
-  "type": "Property",
-  "label": "Custom Field",
-  "description": "A field used for custom data in the context of this schema.",
-  "range": "xsd:string"
+  "@context": {
+    "gx": "https://github.com/caict-4iot-dev/jsonld/blob/main/gx-custom.json#",
+    "vaa": {
+      "@id": "gx:vaa",
+      "@type": "xsd:string",
+      "description": "The unique identifier for a specific VAA entity."
+    },
+    "uscc": {
+      "@id": "gx:uscc",
+      "@type": "xsd:string",
+      "description": "The unique identifier for a specific USCC entity."
+    }
+  }
 }
